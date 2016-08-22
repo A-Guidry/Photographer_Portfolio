@@ -1,0 +1,202 @@
+body{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.headerImg{
+   background: url("../img/header.jpg") bottom no-repeat;
+   background-size: cover;
+   height: 400px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+} 
+
+/*Top Navigation*/
+
+.topNav a{
+	text-decoration: none;
+}
+.mdl-layout__header-row{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+  position: fixed;
+}
+
+.mdl-layout__drawer.is-visible{
+	background-color: #000;
+	color: #fff;
+}
+.mdl-layout__drawer{
+	border: none;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/*About Me Section*/
+
+.demo-card-square.mdl-card {
+  width: 380px;
+  height: 380px;
+}
+.demo-card-square .mdl-card .mdl-shadow--2dp{
+  margin-right: 0;
+} 
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: url('../img/john.jpg') center 30% no-repeat #46B6AC;
+    height: 250px;
+}
+.mainImg{
+width: 100%
+height:auto;
+}
+.card{
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px 
+  rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  padding-bottom: 5px;
+}
+.meP{
+  margin-top: 3%;
+  color: #fff; 
+}
+.figurecaption{
+  background: #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+.figure{
+  width: 300px;
+  height: 300px;
+
+}
+#aboutMe{
+	padding: 4% 0 2% 4%;
+	background-color: #757575;
+  height: auto;
+}
+.page-section, .small-section {
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 0;
+}
+
+#pImg{
+	max-width: 100%;
+}
+.row{
+  margin: 3% 0;
+}
+
+.containerP{
+  padding-top: 80px;
+}
+
+/*Contact Me Section*/
+
+.page-section .contactMe{
+  font-family:;
+  padding-top:5%; 
+}
+
+.contactImg{
+   background: url("../img/header.jpg") bottom no-repeat;
+   opacity: 0.5;
+   background-size: cover;
+   height: 530px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: #000;
+   text-align: center;
+   font-size: 50px;
+   
+} 
+
+.contactForm{
+  width: 50%;
+  background-color: rgba(0,0,0,.54);
+  padding: 10px;
+  text-align: center;
+  margin:0 auto;
+  clear: both;
+  opacity: 0.9;
+
+
+}
+
+.page-section,.contact{
+  padding-top: 5%;
+}
+
+
+/*Footer*/
+
+.footer{
+  height: 80px;
+  background-color: rgba(0,0,0,.54);
+  position: absolute !important;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.fa {
+  color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.fa-facebook{
+  background-color: #3b5998;
+  border-radius: 50%;
+  padding: 10px 16px 9px;
+}
+
+.fa-twitter{
+background-color: #00aced;
+border-radius: 50%;
+padding: 10px 11px 9px;
+
+}
+.fa-google-plus{
+  background-color: #d34836;
+  border-radius: 50%;
+  padding: 9px 11px;
+}
+.fa-linkedin{
+  background-color: #0077B5;
+  border-radius: 50%;
+  padding: 10px 13px;
+}
+
+.footer a:hover{
+  color: red;
+}
