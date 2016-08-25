@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Character Encoding -->
-	<meta charset="utf-8">
+  <!-- Character Encoding -->
+  <meta charset="utf-8">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-	<!-- Responsive Meta Tag -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Google Material Design -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+  <!-- Responsive Meta Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Font Awesome -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
-	<title>Photo Portfolio</title>
+  <!-- Google Material Design -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  
+  <title>Photo Portfolio</title>
 
 </head>
 <body>
-<!-- Top Nav -->
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Photo Portfolio</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation topNav">
-        <a id="navTop" class="mdl-navigation__link" href="index.html#aboutMe">About Me</a>
-        <a id="navTop" class="mdl-navigation__link" href="index.html#portfolio">Portfolio</a>
-        <a id="navTop" class="mdl-navigation__link" href="index.html#contactMe">Contact</a>
-        <a id="navTop" class="mdl-navigation__link" href="index.html#social">Social</a>
-      </nav>
+<!-- Nav Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Photography Portfolio</a>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Photo Portfolio</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="#aboutMe">About Me</a>
-      <a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
-      <a class="mdl-navigation__link" href="#contactMe">Contact</a>
-      <a class="mdl-navigation__link" href="#social">Social</a>
-    </nav>
-  </div>
-  <main class="mdl-layout__content">
-  </main>
-</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right ">
+        <li><a class="topNav" href="index.html#aboutMe">About Me<span class="sr-only">(current)</span></a></li>
+        <li><a class="topNav" href="index.html#portfolio">Portfolio</a></li>
+        <li><a class="topNav" href="index.html#contactMe">Contact</a></li>
+        <li><a class="topNav" href="index.html#social">Social</a></li>
+       </ul>
+       </div>
+    </div><!-- End Container -->
+</nav>
 <!-- End Nav -->
 
 <div class="container containerP">
@@ -69,25 +67,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/DSC_0020.jpg" alt="...">
+      <img src="img/DSC_0020.jpg" alt="Photo A">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="img/DSC_0073.jpg" alt="...">
+      <img src="img/DSC_0073.jpg" alt="Photo B">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="img/DSC_0097.jpg" alt="...">
+      <img src="img/DSC_0097.jpg" alt="Photo C">
       <div class="carousel-caption">
         ...
       </div>
     </div>
      <div class="item">
-      <img src="img/DSC_0104.jpg" alt="...">
+      <img src="img/DSC_0104.jpg" alt="Photo D">
       <div class="carousel-caption">
         ...
       </div>
@@ -107,36 +105,77 @@
 </div>
 <!-- Portfolio Section -->
 <div class="container" id="portfolio">
-	<div class=".page-section">
-		<div class="row">
-		  <div class="col-sm-4"><a href="portfolio.html"><img id="pImg" class="img-reponsive" src="img/pic1.jpg"></a></div>
-		  <div class="col-sm-4"><a href="portfolio.html"><img id="pImg" class="img-reponsive" src="img/pic2.jpg"></a></div>
-		  <div class="col-sm-4"><a href="portfolio.html"><img id="pImg" class="img-reponsive" src="img/pic5.jpg"></a></div>
-		</div>
+  <div class=".page-section">
+    <div class="row">
+      <div class="col-sm-4 view view-tenth">
+        <img class="img-reponsive pImg" src="img/pic1.jpg" alt="Photo 1">
+      <div class="mask">
+          <a href="portfolio.html"><h2>Tittle Here </h2>
+          <p>Words and such, a whole lot more words.</p></a>
+          </div>
+        </div>
+      <div class="col-sm-4 view view-tenth">
+        <img class="img-reponsive pImg" src="img/pic2.jpg" alt="Photo 2">
+        <div class="mask">
+        <a href="portfolio.html"><h2>Tittle Here </h2>
+          <p>Words and such, a whole lot more words.</p></a>
+          </div>
+          </div>
+      <div class="col-sm-4 view view-tenth">
+      <img class="img-reponsive pImg" src="img/pic5.jpg" alt="Photo 3">
+      <div class="mask">  
+      <a href="portfolio.html"><h2>Tittle Here </h2>
+          <p>Words and such, a whole lot more words.</p></a>
+          </div>
+          </div>
+    </div><!-- End Row-->
+  
 <!-- Second row -->
-		<div class="row">
-		  <div class="col-sm-4"><a href="portfolio.html"><img id="pImg" class="img-reponsive" src="img/pic4.jpg"></a></div>
-		  <div class="col-sm-4"><a href="portfolio.html"><img id="pImg" class="img-reponsive" src="img/show.jpg"></a></div>
-		  <div class="col-sm-4"><a href="portfolio.html"><img id="pImg" class="img-reponsive" src="img/pic6.jpg"></a></div>
-		</div>
-	</div><!-- //page section -->
+    <div class="row">
+      <div class="col-sm-4 view view-tenth">
+      <img class="img-reponsive pImg" src="img/pic4.jpg" alt="Photo 4">
+      <div class="mask">
+      <a href="portfolio.html"><h2>Tittle Here </h2>
+          <p>Words and such, a whole lot more words.</p></a>
+          </div>
+          </div>
+      <div class="col-sm-4 view view-tenth" >
+        <img class="img-reponsive pImg" src="img/show.jpg" alt="Photo 5">
+        <div class="mask">
+      <a href="portfolio.html"><h2>Tittle Here </h2>
+          <p>Words and such, a whole lot more words.</p></a>
+          </div>
+          </div>
+      <div class="col-sm-4 view view-tenth">
+      <img class="img-reponsive pImg" src="img/pic6.jpg" alt="Photo 6">
+      <div class="mask">
+      <a href="portfolio.html"><h2>Tittle Here </h2>
+          <p>Words and such, a whole lot more words.</p></a></div>
+      </div>
+      </div>
+  </div><!-- //page section -->
 </div><!-- //container -->
 
 <!-- Footer -->
-<div class="footer">
-	<a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-	<a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-	<a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-	<a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
 
-</div>
-
-
-	<script src="js/jQuery.min.js"></script>
-	<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
-	<!-- Bootstrap Script (must include) -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+<nav class="navbar navbar-default navbar-static-bottom footer">
+  <div class="container">
+  <div class="footerP"><p>&copy; AGuidry.tech 2016</p></div>
+    <div id="social">
+   <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</nav>
+<!-- End Footer -->
+ 
+  <script src="js/jQuery.min.js"></script>
+  <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+  <!-- Bootstrap Script (must include) -->
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
